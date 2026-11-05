@@ -1,0 +1,26 @@
+{
+  "name": "eve-output-schema-prose",
+  "version": "0.0.0",
+  "type": "module",
+  "imports": {
+    "#*": "./agent/*"
+  },
+  "scripts": {
+    "dev": "eve dev",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@vercel/connect": "2.7.0",
+    "ai": "^7.0.137",
+    "eve": "1.0.0-rc.5",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "24.x",
+    "tsx": "4.20.6",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
